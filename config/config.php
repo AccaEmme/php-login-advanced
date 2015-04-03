@@ -17,7 +17,7 @@ define("DB_HOST", "127.0.0.1");
 define("DB_NAME", "login");
 define("DB_USER", "root");
 define("DB_PASS", "mysql");
-
+define("DB_TAB", "users");
 /**
  * Configuration for: Cookies
  * Please note: The COOKIE_DOMAIN needs the domain where your app is,
@@ -113,3 +113,6 @@ define("EMAIL_VERIFICATION_CONTENT", "Please click on this link to activate your
  * This constant will be used in the login and the registration class.
  */
 define("HASH_COST_FACTOR", "10");
+
+// include the to-be-used language, english by default. feel free to translate your project and include something else
+require_once('translations/en.php'); 
