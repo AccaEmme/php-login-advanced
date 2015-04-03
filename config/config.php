@@ -1,5 +1,5 @@
 <?php
-
+ include('../config/config.php');
 /**
  * Configuration for: Database Connection
  * This is the place where your database login constants are saved
@@ -17,6 +17,7 @@ define("DB_HOST", "127.0.0.1");
 define("DB_NAME", "login");
 define("DB_USER", "root");
 define("DB_PASS", "mysql");
+define("DB_TAB", "users");
 
 /**
  * Configuration for: Cookies
